@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pressure-drop-estimation"
+version = "1.0.0"
+description = "\"Machine learning pipelines for estimating pressure drops in two-phase adiabatic flows.\""
+authors = [
+    "Farshad Bolourchifard <farshad.bolourchifard@mail.polimi.it>",
+    "Keivan Ardam <keivan.ardam@mail.polimi.it>",
+    "Farzad Dadras Javan <farzad.dadras@polimi.it>",
+    "Behzad Najafi <behzad.najafi@polimi.it>",
+    "Paloma Vega Penichet Domecq <paloma.vega-penichetd@alumnos.upm.es>",
+    "Fabio Rinaldi <fabio.rinaldi@polimi.it>",
+    "Luigi Pietro Maria Colombo <luigi.colombo@polimi.it>"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+tpot = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
